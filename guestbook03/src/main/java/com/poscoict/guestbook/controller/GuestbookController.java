@@ -15,7 +15,6 @@ import com.poscoict.guestbook.vo.GuestbookVo;
 public class GuestbookController {
 	
 	@Autowired
-	
 	private GuestbookRepository guestbookRepository;
 
 	@RequestMapping("")
