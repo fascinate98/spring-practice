@@ -7,7 +7,19 @@ import org.springframework.web.multipart.MultipartFile;
 public class FileUploadService {
 	
 	public String restore(MultipartFile multipartfile) {
-		return null;
+		String url = null;
+		
+		if(multipartfile.isEmpty()) {
+			return url;
+		}
+		
+		String originfilename =  multipartfile.getOriginalFilename();
+		long filesize = multipartfile.getSize();
+		
+		System.out.println("!@#!@#!@#!@#!@#!@#!@#!#!#!@#!#!@#!@#!@#!@#" + originfilename);
+		System.out.println("!@#!@#!@#!@#!@#!@#!@#!#!#!@#!#!@#!@#!@#!@#" + filesize);
+	
+		return url;
 	}
 
 }
