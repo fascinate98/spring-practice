@@ -1,8 +1,8 @@
-package com.poscoict.container.config.videosystem;
+package com.poscoict.container.videosystem;
 
 import com.poscoict.container.videosystem.DigitalVideoDisc;
 
-public class Avengers implements DigitalVideoDisc {
+public class IronMan implements DigitalVideoDisc {
 
 	private String studio = "MARVEL";
 	private String title = "Avengers";
